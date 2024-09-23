@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.containers{
+    /* background-image: url(/image/book1.jpg);
+    background-size: cover; */
+    border-image-width: 12px;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position:fixed; */
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+}
+.form{
+    background: white;
+    border:var(--border);
+    width: 47rem;
+    margin-left: -1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    box-shadow: rgba(51, 235, 146) 0px 3px 8px;
+    border-radius: .5rem;
+    margin-top: 5rem;
+    font-size: 14px!important;
+    color: #16191f;
+    font-weight: normal;
+}
+.box{
+    /* margin-left: 122px; */
+    /* margin-top: 12px; */
+    width: 90%;
+    /**border: var(--border);**/
+    padding:1rem;
+    color: black;
+    text-transform: none;
+}
+.Jags{
+    border-width: 2px;
+    width: 90%;
+    border: var(--border);
+    padding:1rem;
+    color: black;
+    text-transform: none;
+    border-width: 2px;
+    border-style: groove;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+.border{
+    border: var(--border);
+}
+.btn{
+    display: inline-block;
+    padding: .7rem 1rem;
+    border-radius: 4.5rem;
+    color: white;
+    font-weight: bolder;
+    font-size: initial;
+    background: #434242;
+    cursor: pointer;
+    font-weight:300 ;
+}
+.btn.hover{
+    background:var(--dark-color)
+}
